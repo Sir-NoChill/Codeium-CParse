@@ -20,6 +20,9 @@
 (function_definition
   (primitive_type) @returns)
 
+(function_definition
+  (sized_type_specifier) @returns)
+
 ;; no classes in C99, so I ignore parentage
 
 ;; --------- STRUCTS --------- ;;
