@@ -1,10 +1,13 @@
 
+;;TODO make each of these sections into one query
+;;     and extract all of the data into codeium flags
 ;; --------- FUNCTIONS --------- ;;
 ;; docstring functions
 (translation_unit
-  (comment) @docstring
+  (comment)* @doc
    .
-  (function_definition))
+  (function_definition
+   ))
 
 ;; function parameters
 (function_declarator
